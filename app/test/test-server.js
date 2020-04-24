@@ -35,7 +35,7 @@ if(process.env.DB_HOST) {
           done();
         });
     });
-  });
+  }); 
 }
 
 describe('Fibonacci', function() {
